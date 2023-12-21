@@ -4,13 +4,15 @@ margin: 0 auto;
 padding: 0 15px;
 outline: solid #2196F3;
 }
+.header-box{
+    display: flex;
+}
 .header-navigation{
+    display: flex;
+    flex-direction: row;
     outline: solid red; 
     margin-right: 344px;
     margin-left: 93px;
-}
-.header-box{
-    display: flex;
 }
 .hero-box{
     display: flex;
@@ -31,23 +33,41 @@ body {
  
 .about-box{
     display: flex;
+    justify-content: space-between;
     flex-direction: column;
-    flex-wrap: wrap;
+   
 }
 .about-list{
-    display: inline-flex;
+    display: flex;
   flex-direction: row;
   justify-content: space-evenly;
 }
 .team-box{
     display: flex;
+    justify-content: space-between;
     flex-direction: column;
-    flex-wrap: nowrap;  
+    
+     
 }
 .container-list{
-    display: inline-flex;
+    display: flex;
   flex-direction: row;  
 justify-content: space-evenly;
 }
 
+.about-picture{
+    display: flex;
+    flex-direction: row;  
+  justify-content: space-evenly; 
+  width: 270px;
+height: 260px;
+}
+
+.container-picture{
+    display: flex;
+    flex-direction: row;  
+  justify-content: space-evenly; 
+  width: 270px;
+height: 260px;
+}
 
