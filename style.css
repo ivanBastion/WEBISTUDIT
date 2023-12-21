@@ -37,7 +37,7 @@ body {
 .about-list{
     display: inline-flex;
   flex-direction: row;
-   
+  justify-content: space-evenly;
 }
 .team-box{
     display: flex;
@@ -47,6 +47,7 @@ body {
 .container-list{
     display: inline-flex;
   flex-direction: row;  
+justify-content: space-evenly;
 }
 
 
