@@ -1,0 +1,50 @@
+.container{
+    width: 1200px;
+margin: 0 auto; 
+padding: 0 15px;
+outline: solid #2196F3;
+}
+.header-navigation{
+    outline: solid red; 
+    margin-right: 344px;
+    margin-left: 93px;
+}
+.header-box{
+    display: flex;
+}
+.hero-box{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+.pages-list_advent{
+   display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.hero-order{
+color: #FFFFFF;
+}
+body {
+    font-family: Roboto;
+}
+ 
+.about-box{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.about-list{
+    display: inline-flex;
+  flex-direction: row;
+   
+}
+.team-box{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;  
+}
+.container-list{
+    display: inline-flex;
+  flex-direction: row;  
+}
