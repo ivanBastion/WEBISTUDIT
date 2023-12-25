@@ -167,7 +167,6 @@ body {
     /* 171.429% */
     letter-spacing: 0.42px;
 }
-
 .about-box {
     display: flex;
     justify-content: space-between;
@@ -330,19 +329,14 @@ a:hover {
 .footer-text-gr {
     color: grey;
     font-size: 14px;
-
     font-weight: 400;
     line-height: 24px;
-
     letter-spacing: 0.42px;
     margin-bottom: 9px;
 }
-
 .footer-text-adrs {
     color: rgb(255, 255, 255);
-
     font-size: 14px;
-
     font-weight: 400;
     line-height: 24px;
     /* 171.429% */
@@ -350,26 +344,78 @@ a:hover {
     margin-top: 20px;
     margin-bottom: 9px;
 }
+.portfolio-buttons{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin-top: 94px;
+}
+.portfolio{
+    display: flex;
+    margin-bottom: 94px;
+}
+.main-portfolio-absats{
+    color: #757575;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 187.5% */
+letter-spacing: 0.48px;
+}
+.main-portfolio-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+
+}
+.main-portfolio-item{
+    border: 2px solid #EEE;
+    background: #FFF;
+}
 /* portfolio */
 .main-button {
     color: #212121;
     text-align: center;
     font-size: 16px;
-
     font-weight: 500;
     line-height: 26px;
-    /* 162.5% */
     letter-spacing: 0.48px;
     width: 103px;
     height: 38px;
     flex-shrink: 0;
     border-radius: 4px;
+    border: #F5F4FA;
     background: #F5F4FA;
+}
+.main-portfolio-foto{
+    width: 364px;
+height: 290px;
+flex-shrink: 0;
+margin-bottom: 20px;
 }
 
 .main-button:hover {
-
     background: #2196F3;
     color: #FFF;
+}
+.main-portfolio-title{
+    margin-bottom: 4px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
 
+.main-portfolio-absats{
+padding-bottom: 20px;
+padding-left: 24px;
+    padding-right: 24px;
+}
+.main-portfolio-title{
+color: #212121;
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 36px; /* 200% */
+letter-spacing: 1.08px;
 }
