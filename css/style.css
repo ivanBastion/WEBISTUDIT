@@ -349,6 +349,7 @@ a:hover {
     justify-content: center;
     align-self: center;
     margin-top: 94px;
+    margin-bottom: 56px;
 }
 .portfolio{
     display: flex;
