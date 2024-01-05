@@ -387,6 +387,7 @@ a:hover {
 .main-portfolio-item {
     border: 2px solid #EEE;
     background: #FFF;
+    flex-basis: calc((100% - 60px) /3);
 }
 
 /* portfolio */
@@ -406,7 +407,7 @@ a:hover {
 }
 
 .main-portfolio-foto {
-    width: 364px;
+    width: 366px;
     height: 290px;
     flex-shrink: 0;
     margin-bottom: 20px;
