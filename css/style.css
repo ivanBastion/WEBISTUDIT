@@ -97,11 +97,11 @@ body {
 .hero {
     content: "";     
     display: inline-block;
-    background-image: url("/img/Img 1.png")  ;
+    background-image: url("/img/Img-1.png")  ;
     background-position: 50% 50% ;
     padding-top: 200px;
     padding-bottom: 200px;
-    
+  
 }
 
 .hero-title {
