@@ -180,11 +180,11 @@ flex-shrink: 0;
         
        }
 
-       .pages-list_advent>:nth-child(2):before {
+       .pages-list_advent>:not(:first-child):before {
 
         content: "";     
          display: inline-block;
-         background-image: url("/img/clock 1.svg")  ;
+         background-image: url("/img/work3.svg")  ;
          background-position: 50% 50% ;
          width: 100%;
          height: 70px;
