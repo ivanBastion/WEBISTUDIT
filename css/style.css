@@ -589,3 +589,124 @@ box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0
     /* 200% */
     letter-spacing: 1.08px;
 }
+.reg-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.reg-item{
+    width: 170px;
+    height: 92px;
+top: 2490px;
+left: 215px;
+gap: 0px;
+border-radius: 4px 0px 0px 0px;
+border: 1px 0px 0px 0px;
+opacity: 0px;
+padding-left: 30px;
+padding-right: 30px;
+border: solid 2px gray;
+
+}
+.reg-item:hover{
+    width: 170px;
+    height: 92px;
+top: 2490px;
+left: 215px;
+gap: 0px;
+border-radius: 4px 0px 0px 0px;
+border: 1px 0px 0px 0px;
+opacity: 0px;
+padding-left: 30px;
+padding-right: 30px;
+border: solid 2px rgb(128, 128, 128);
+
+}
+.reg-title{
+    display: flex;
+    margin-bottom: 50px;
+justify-content: center;
+align-items: center;
+}
+.reg-clients{
+    margin-top: 94px;
+    margin-bottom: 94px;
+}
+.img-reg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.media{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.join-title{
+    font-family: var(--font-family);
+font-weight: 700;
+font-size: 14px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #fff;
+}
+.join-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; 
+    justify-content: space-evenly;
+}
+.join{
+    
+    flex-direction: row;
+
+}
+.footer-container{
+    display: flex;
+}
+.join-item{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    width: 50px;
+height: 50px;
+fill: rgba(255, 255, 255, 0.1);
+border-radius: 30px;
+}
+.join-item:hover{
+    background: linear-gradient(180deg,  #2196f3 0%,  #2196f3 100%);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    width: 50px;
+height: 50px;
+fill: #2196f3;
+border-radius: 30px;
+}
+.teammember-icon{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid rgba(255, 255, 255, 0.2);*/
+    width: 50px;
+height: 50px; 
+
+border-radius: 30px;
+}
+.teammember-icon:hover{
+    background: linear-gradient(180deg,  #2196f3 0%,  #2196f3 100%);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    width: 50px;
+height: 50px;
+fill: #2196f3;
+border-radius: 30px;
+}
+.teammemeber-bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; 
+    justify-content: space-evenly;
+}
