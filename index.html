@@ -18,6 +18,9 @@
 </head>
 
 <body>
+
+        
+   
     <!--header  -->
 
 
@@ -66,7 +69,9 @@
                     Ефективні рішення для
                     вашого бізнесу
                 </h1>
-                <button class="hero-order" type="button">Замовити послугу</button>
+                 <button data-modal-open class="hero-order" type="button">Замовити послугу</button>
+
+                 
             </div>
         </section>
         <section class="advent">
@@ -411,9 +416,9 @@
         </ul>
 
     </footer>
-    <div class="backdrop">
+    <div data-modal class="backdrop is-hidden" >
         <div class="modal">
-          <button type="button" class="backdrop-btn">
+          <button data-modal-close type="button" class="backdrop-btn">
             <svg class="backdrop-svg">
                 <use href="./icons/symbol-defs.svg#icon-cross"></use>
             </svg>
@@ -433,7 +438,7 @@
          <button class="send" type="button">Відправити</button>
         </div>
         </div>
-      </div>
+      </div> 
       <script src="./js/modal.js"></script>
 </body>
 
