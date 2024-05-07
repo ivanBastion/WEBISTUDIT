@@ -442,6 +442,7 @@ a:hover {
 .portfolio {
     display: flex;
     padding-bottom: 94px;
+    flex-basis: calc((100% - 60px) /3);
 }
 
 .main-portfolio-absats {
@@ -467,8 +468,6 @@ a:hover {
     background: #FFF;
     flex-basis: calc((100% - 60px) /3);
 }
-
-/* portfolio */
 .main-button1 {
     color: #212121;
     text-align: center;
@@ -562,7 +561,11 @@ a:hover {
     height: 290px;
     flex-shrink: 0;
     margin-bottom: 20px;
+    
 }
+
+
+
 
 .main-portfolio-item:hover {
     width: 366px;
@@ -932,3 +935,51 @@ height: 15px;
     opacity: 0;
     pointer-events: none;
 }
+.header-item:hover::after{
+    color: #2196F3;
+    width: 48px;
+    height: 4px;
+    border-radius: 2px;
+}
+
+
+.overlay     {
+    
+    position: absolute;
+    top: 0;
+    left: 11;
+    width: 366px;
+    height: 310px;
+    background: linear-gradient(180deg, rgb(0, 136, 255) 0%, rgba(0, 136, 225) 100%);
+    transform: translatey(94%);
+    transition: transform 750ms ease-in-out;
+    
+  }
+  
+  .box:hover .overlay {
+    transform: translatey(0);
+    
+  }
+  
+  .box {
+    position: relative;
+    width: 366px;
+    height: 290px;
+    margin: 0 auto;
+    background-color: #bdbdbd;
+    overflow: hidden;
+  }
+  
+  
+  .overlay p {
+    color: #fff;
+    padding: 10px;
+    margin: 0;
+    font-size: 18px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+ 
+ 
+  
