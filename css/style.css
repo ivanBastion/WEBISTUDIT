@@ -464,9 +464,11 @@ a:hover {
 }
 
 .main-portfolio-item {
+    position: relative;
     border: 2px solid #EEE;
     background: #FFF;
     flex-basis: calc((100% - 60px) /3);
+    overflow: hidden;
 }
 .main-button1 {
     color: #212121;
@@ -943,35 +945,45 @@ height: 15px;
 }
 
 
-.overlay     {
+.div-overlay     {
     
-    position: absolute;
+    /* position: absolute;
     top: 0;
     left: 11;
     width: 366px;
     height: 310px;
     background: linear-gradient(180deg, rgb(0, 136, 255) 0%, rgba(0, 136, 225) 100%);
     transform: translatey(94%);
-    transition: transform 750ms ease-in-out;
-    
-  }
-  
-  .box:hover .overlay {
-    transform: translatey(0);
-    
-  }
-  
-  .box {
-    position: relative;
-    width: 366px;
+    transition: 750ms linear; */
+    display: flex;
+  align-items: end;
+  background: rgba(0, 156, 253, 0.5);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  opacity: 0;
+  width: 370px;
     height: 290px;
-    margin: 0 auto;
-    background-color: #bdbdbd;
+  transition-property: opacity;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .box:hover .div-overlay {
+   opacity: 1;
+    
+  }
+  
+  .box:hover {
+    background-color: #ffffff;
     overflow: hidden;
+    
   }
   
   
-  .overlay p {
+  .div-overlay p {
     color: #fff;
     padding: 10px;
     margin: 0;
@@ -980,6 +992,13 @@ height: 15px;
     align-items: center;
   }
   
- 
+  .header-active:hover:after {
+    content: '';
+    background-color: #2196F3;
+    width: 100%;
+    height: 5px;
+    display: block;
+    
+  }
  
   
