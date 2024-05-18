@@ -25,21 +25,31 @@
             <nav class="header-navigation">
                 <ul class="header-list">
                     <li class="header-item">
-                        <a class="header-link header-active" href="./index.html">Студія</a>
+                        <a class="header-link" href="./index.html">Студія</a>
                     </li>
                     <li class="header-item">
-                        <a class="header-link header-active" href="./portfolio.html">Портфоліо</a>
+                        <a class="header-link" href="./portfolio.html">Портфоліо</a>
                     </li>
                     <li class="header-item">
-                        <a class="header-link header-active" href="">Контакти</a>
+                        <a class="header-link" href="">Контакти</a>
                     </li>
                 </ul>
             </nav>
             <ul class="header-list">
                 <li class="header-item">
+                    <a href="" class="header-link">
+                        <svg class="header-icon">
+                            <use class="fill-info" href="./icons/symbol-defs.svg#icon-envelope"></use>
+                        </svg>
+                    </a>
                     <a class="header-addres" href="mailto:info@devstudio.com">info@devstudio.com</a>
                 </li>
                 <li class="header-item">
+                    <a href="" class="header-link">
+                        <svg class="header-icon">
+                            <use class="fill-info" href="./icons/symbol-defs.svg#icon-smartphone"></use>
+                        </svg>
+                    </a>
                     <a class="header-addres" href="tel:+380961111111">+38 096 111 11 11</a>
                 </li>
             </ul>
@@ -69,6 +79,19 @@
                                 приватну особу.</p>
                         </div>
                     </li>
+                    <div class="container placed">
+                        <ul class="main-portfolio-list ">
+                            <li class=" main-portfolio-item box">
+                                <img src="./img/img-1.webp" alt="posterinposter1" class="main-portfolio-foto ">
+                                <h2 class="main-portfolio-title">Технокряк</h2>
+                                <p class="main-portfolio-absats">Веб-сайт</p>
+        
+                                <div class="div-overlay">
+                                    <p class="ovrl-text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та
+                                        сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи
+                                        приватну особу.</p>
+                                </div>
+                            </li>
                     <li class=" main-portfolio-item box">
                         <img src="./img/img-2.webp" alt="posterinposter1" class="main-portfolio-foto ">
                         <h2 class="main-portfolio-title">Технокряк</h2>
@@ -153,18 +176,80 @@
     </main>
     <!--ydobnyi pidval nedorogo-->
     <footer class="footer">
-        <div class="container">
-
-            <a class="footer-web" href="">Web<span class="footer-stud">Studio</span></a>
-
-            <p class="footer-text-adrs">м. Київ, пр-т Лесі Українки, 26</p>
-
-            <p class="footer-text-gr"> info@devstudio.com</p>
-
-
-            <p class="footer-text-gr"> +38 096 111 11 11</p>
-
-        </div>
+        <footer class="footer container">
+            <ul class="footer-container">
+                <li class="container-left">
+                    <a class="footer-web" href="">Web<span class="footer-stud">Studio</span></a>
+    
+                    <p class="footer-text-adrs">м. Київ, пр-т Лесі Українки, 26</p>
+    
+                    <p class="footer-text-gr"> info@devstudio.com</p>
+    
+    
+                    <p class="footer-text-gr"> +38 096 111 11 11</p>
+                </li>
+                <li class="container-right">
+                    <h1 class="join-title">
+                        приєднуйтесь
+                    </h1>
+                    <ul class="reg-list">
+                        <li class="teammember-icon">
+                            <a href="" class="team-link">
+                                <svg class="team-icon">
+                                    <use class="fill-icon" href="./icons/symbol-defs.svg#icon-instagram"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="teammember-icon">
+                            <a href="" class="team-link">
+                                <svg class="team-icon">
+                                    <use class="fill-icon" href="./icons/symbol-defs.svg#icon-Group"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="teammember-icon">
+                            <a href="" class="team-link">
+                                <svg class="team-icon">
+                                    <use class="fill-icon" href="./icons/symbol-defs.svg#icon-facebook"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="teammember-icon">
+                            <a href="" class="team-link">
+                                <svg class="team-icon">
+                                    <use class="fill-icon" href="./icons/symbol-defs.svg#icon-linkedin"></use>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+    
+        </footer>
+        <div data-modal class="backdrop is-hidden" >
+            <div class="modal">
+              <button data-modal-close type="button" class="backdrop-btn">
+                <svg class="backdrop-svg">
+                    <use href="./icons/symbol-defs.svg#icon-cross"></use>
+                </svg>
+              </button>
+              <div class="infor">
+              <h2>Залиште свої дані, ми вам передзвонимо</h2>
+              <h4>Ім'я</h4>
+              <input class="information" placeholder=""></input>
+              <h4>Телефон</h4>
+              <input class="information" placeholder=""></input>
+              <h4>Пошта</h4>
+              <input class="information" placeholder=""></input>
+              <h4>Коментар</h4>
+              <input class="information-komment" placeholder="Введіть текст"></input>
+              <input class="checkbox" type="checkbox">
+             <h3> Погоджуюся з розсилкою та приймаю Умови договору</h3>
+             <button class="send" type="button">Відправити</button>
+            </div>
+            </div>
+          </div> 
+          <script src="./js/modal.js"></script>
     </footer>
 </body>
 
